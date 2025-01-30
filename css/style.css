@@ -23,8 +23,12 @@ img{
 header {
     background-color: var(--clr-bg-1);
     display: var(--dsp-flex);
-    figure img{
-        width: 20px;
+    figure {
+        margin : 0;
+        padding: 1rem;
+        img{
+            width: 20px;
+        }
     }
     a{
         text-decoration: var(--txt-decor);
@@ -46,5 +50,4 @@ header {
             }
         }
     }
-    .burger
 }
