@@ -1,0 +1,50 @@
+:root{
+    font-size: 10px;
+    --clr-bg-1 : #1B1C37;
+    --clr-bg-2 : #000000;
+    --clr-white : white;
+    --clr-black : black;
+    --txt-alin :center ;
+    --txt-decor : none ; 
+    --align-itms :center ;
+    --dsp-flex : flex; 
+    --dsp-grid : grid;
+    --lst-style : none;
+}
+body,html {
+    margin :0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: var(--clr-bg-1);
+    display: var(--dsp-flex);
+    figure img{
+        width: 20px;
+    }
+    a{
+        text-decoration: var(--txt-decor);
+        font-size: 1.5rem;
+        font-weight: 300;
+        color : var(--clr-white);
+        padding: 1rem;
+    }
+    nav {
+        ul {
+            list-style : var(--lst-style);
+            li{
+                padding: 0.2rem;
+                a{
+                    color: var(--clr-white);
+                    text-decoration: var(--txt-decor);
+                    display: none;
+                }
+            }
+        }
+    }
+    .burger
+}
