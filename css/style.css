@@ -10,6 +10,7 @@
     --dsp-flex : flex; 
     --dsp-grid : grid;
     --lst-style : none;
+    --clr-chart : #7579FF;
 }
 body,html {
     margin :0;
@@ -23,6 +24,11 @@ img{
 header {
     background-color: var(--clr-bg-1);
     display: var(--dsp-flex);
+    position: fixed;
+    right: 0;
+    left:0;
+    top : 2rem;
+    border-radius: 0.8rem;
     figure {
         margin : 0;
         padding: 1rem;
@@ -48,6 +54,29 @@ header {
                     display: none;
                 }
             }
+        }
+    }
+    .burger{
+        width: 2.5rem ;
+        height: 2rem;
+        display: var(--dsp-flex) ;
+        flex-direction: column;
+        align-items: flex-end;
+        gap : 0.5rem;
+        position : absolute;
+        right: 3rem;
+        top : 1.2rem;
+        span:first-of-type{
+            background-color: var(--clr-white);
+            width: 100%;
+            height: 4px;
+            border-radius: 5px;
+        }
+        span:last-of-type{
+            background-color: var(--clr-white);
+            width: 60%;
+            height: 4px ;
+            border-radius: 5px;
         }
     }
 }
